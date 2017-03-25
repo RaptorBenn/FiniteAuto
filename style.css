@@ -1,0 +1,134 @@
+body{
+  font-family: arial;
+  background-color: #f06449;
+}
+
+header{
+  position: fixed;
+  margin: 0 auto; left: 0px; right: 0px;
+  padding-bottom: 0;
+  top: 0;
+  background-color: #087e8b;
+  text-align: center;
+}
+
+footer{
+  position: fixed;
+  margin: 0 auto; left: 0px; right: 0px;
+  bottom: 0;
+  background-color: #087e8b;
+  text-align: right;
+}
+
+footer #time {
+  float: left;
+  margin: 11px 20px;
+}
+
+footer p{
+  margin: 1px 20px;
+  display: inline-block;
+}
+
+/* Dropdown Menu: In Progress */
+.dropbtn{
+  background-color: #4caf50;
+  color: white;
+  font-size: 16px;
+  padding: 16px;
+  border: none;
+  cursor: pointer;
+}
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  align-content: center;
+}
+.dropdown-content a{
+  color: black;
+  padding: 5px 5px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover{
+  background-color: #f1f1f1;
+}
+.dropdown:hover .dropdown-content{
+  display: block;
+  position: absolute;
+}
+.dropdown:hover .dropbtn{
+  background-color: #3e8e41;
+}
+
+#container{
+  max-width: 1080px;
+  min-height: 2000px;
+  margin: 0 auto;
+  overflow: auto;
+  padding-top: 160px;
+  padding-bottom: 50px;
+  width: 100%;
+}
+
+#feed{
+  float: left;
+  width: 20%;
+  height: inherit;
+  background-color: #ccc5b9;
+  border-radius: 3px;
+}
+
+#feed h3{
+  text-align: center;
+  margin: 0 auto;
+}
+
+#feed ol{
+  list-style-type: none;
+  padding: 0;
+  border: 2px solid #252422;
+  margin: auto 5px;
+  background-color: #403d39;
+  border-radius: 4px;
+}
+
+#feed li{
+  font-size: 80%;
+  background-color: #ccc5b9;
+  margin: 3px;
+  border-radius: 4px;
+}
+
+#content{
+ width: 80%;
+ float: left;
+}
+
+#content .article{
+  overflow: auto;
+  background-color: #ccc5b9;
+  padding: 5px 5px;
+  border-radius: 6px;
+  margin-left: 5px;
+  }
+
+#content h3{
+  margin: 20px 100px;
+  font-size: 1.3em;
+}
+
+#content img{
+  display: inline-block;
+  float: left;
+  border-radius: 10px;
+  max-width: 20%;
+}
